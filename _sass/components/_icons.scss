@@ -2,17 +2,15 @@
 
 .icon {
   display: block;
-  height: 2em;
-  width: 2em;
+  height: 1em;
+  width: 1em;
 
   &--links {
-    fill: $color-gray;
-    height: 1.2em;
+    fill: #444;
     padding: .5em;
-    width: 1.2em;
 
     &:hover {
-      fill: $color-gray-dark;
+      fill: #000;
     }
   }
 }

@@ -2,30 +2,30 @@
 
 .about {
   align-items: center;
+  color: rgba($color-white, .8);
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   min-width: 20em;
-  text-transform: uppercase;
 
   &__name {
+    color: $color-gray-dark;
     font-size: 2em;
     font-weight: 500;
     letter-spacing: .05em;
     line-height: 1;
     margin: 0;
     text-transform: none;
+
+    @media only screen and (min-width: 30em) {
+      font-size: 3em;
+    }
   }
 
   &__title {
     font-size: 1em;
     font-weight: 300;
-    margin: .3em 0;
-  }
-
-  &__location {
-    color: rgba($color-white, .5);
-    font-size: .85em;
+    margin: 1.5em 0 .625em;
   }
 }
