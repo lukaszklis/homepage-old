@@ -1,0 +1,21 @@
+---
+layout: landing
+---
+
+<section class="about">
+  <h1 class="about__name">Łukasz Kliś</h1>
+  <h2 class="about__title">Front-end Developer</h2>
+  <div class="about__location">Berlin, Germany</div>
+</section>
+
+<nav class="links">
+  <ul class="links__list">
+    {% for link in site.data.navigation_landing %}
+      <li class="links__item">
+        <a href="{{ link.url }}" class="links__link">
+          <svg class="icon icon--links"><use xlink:href="#icon-{{ link.iconName }}"></use></svg>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

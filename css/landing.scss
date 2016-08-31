@@ -1,0 +1,22 @@
+---
+# Landing
+---
+
+// --- vendor ------------------------------------------------------------------
+
+@import 'vendor/normalize';
+
+// --- base --------------------------------------------------------------------
+
+@import 'base/variables';
+@import 'base/core';
+@import 'base/landing';
+
+// --- components --------------------------------------------------------------
+
+@import 'components/icons';
+
+// --- modules -----------------------------------------------------------------
+
+@import 'modules/about';
+@import 'modules/links';

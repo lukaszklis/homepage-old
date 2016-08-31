@@ -1,0 +1,18 @@
+// --- blog --------------------------------------------------------------------
+
+body {
+  color: $color-gray-dark;
+}
+
+a {
+  &,
+  &:visited,
+  &:focus {
+    color: $color-gray-dark;
+    text-decoration: underline;
+  }
+
+  &:hover {
+    color: $color-gray;
+  }
+}

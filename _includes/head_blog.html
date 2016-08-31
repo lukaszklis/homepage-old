@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{% if page.title %}
+  <title>{{ page.title }} &mdash; {{ site.blog.title }}</title>
+{% else %}
+  <title>Blog &mdash; {{ site.blog.title }}</title>
+  <meta name="description" content="{{ site.blog.description }}">
+{% endif %}
+
+<link rel="stylesheet" href="/css/blog.css">
+
+<link rel="alternate" type="application/rss+xml" title="{{ site.blog.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+
+<meta property="og:site_name" content="{{ site.blog.title }}">
+<meta property="og:type" content="website">
+{% if page.title %}
+  <meta property="og:title" content="{{ page.title }} &mdash; {{ site.blog.title }}">
+{% else %}
+  <meta property="og:title" content="Blog &mdash; {{ site.blog.title }}">
+{% endif %}
+<meta property="og:description" content="{{ site.blog.description }}">
+<meta property="og:url" content="{{ site.url }}/blog/">
+<!-- <meta property="og:image" content="{{ site.url }}/images/social/facebook.jpg"> -->
+
+<meta name="twitter:card" content="summary_large_image">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }} &mdash; {{ site.blog.title }}">
+{% else %}
+  <meta name="twitter:title" content="Blog &mdash; {{ site.blog.title }}">
+{% endif %}
+<meta name="twitter:description" content="{{ site.blog.description }}">
+<meta name="twitter:url" content="{{ site.url }}/blog/">
+<!-- <meta name="twitter:image" content="{{ site.url }}/images/social/twitter.jpg"> -->
+<meta name="twitter:site" content="@{{ site.twitter_username }}">

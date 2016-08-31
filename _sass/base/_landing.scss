@@ -1,0 +1,12 @@
+// --- landing -----------------------------------------------------------------
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $color-gray-light url('/images/bg.jpg') no-repeat;
+  background-size: cover;
+  color: $color-white;
+}

@@ -1,0 +1,16 @@
+# Jekyll config
+baseurl: ""
+url: "https://lukasz.klis.co"
+permalink: /blog/:title/
+markdown: kramdown
+
+# SEO
+landing:
+  title: Łukasz Kliś &mdash; Front-end developer
+  description: A front-end developer based in Berlin, Germany. Specializes in building and maintaining large web applications.
+
+blog:
+  title: Łukasz Kliś
+  description: Personal blog of a front-end developer based in Berlin, Germany, who specializes in building and maintaining large web applications.
+
+twitter_username: lukaszklis
