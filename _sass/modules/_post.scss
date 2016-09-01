@@ -2,7 +2,7 @@
 
 .post {
   &__title {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
   &__title-link {
@@ -24,17 +24,14 @@
 
     img {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 100%;
-
-      @media only screen and (min-width: 48em) {
-        left: 50%;
-        max-width: 130%;
-        position: relative;
-        transform: translateX(-50%);
-        width: 120%;
-      }
+      height: auto;
+      left: 50%;
+      max-width: 126%;
+      padding: .6em 0;
+      position: relative;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
     }
   }
 
@@ -46,5 +43,21 @@
 
   &__footer-link {
     letter-spacing: .03em;
+  }
+
+  &--list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--list &__title {
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  &--list &__time {
+    margin-left: 1em;
+    white-space: nowrap;
   }
 }

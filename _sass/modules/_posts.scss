@@ -6,6 +6,11 @@
   padding: 0;
 
   &__item {
-    margin-bottom: 3em;
+    border-top: .0625em solid #d7d7d7;
+    padding: 1em 0;
+
+    &:first-of-type {
+      border-top: 0;
+    }
   }
 }
