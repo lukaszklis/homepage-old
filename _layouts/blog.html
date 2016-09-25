@@ -4,9 +4,13 @@
   {% include head_blog.html %}
 </head>
 <body>
+  {% include header_blog.html title=site.blog.title %}
+
   <main class="layout">
     {{ content }}
   </main>
+
+  {% include footer_blog.html %}
 
   {% include icons.html %}
   {% include google_analytics.html %}

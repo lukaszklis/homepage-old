@@ -4,6 +4,8 @@
   {% include head_blog.html %}
 </head>
 <body>
+  {% include header_blog.html title=site.blog.title %}
+
   <main class="layout">
     <article class="post">
       <header class="post__header">
@@ -14,6 +16,8 @@
       </div>
     </article>
   </main>
+
+  {% include footer_blog.html %}
 
   {% include google_analytics.html %}
 </body>
