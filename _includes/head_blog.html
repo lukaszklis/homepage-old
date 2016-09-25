@@ -8,7 +8,7 @@
   <meta name="description" content="{{ site.blog.description }}">
 {% endif %}
 
-<link rel="stylesheet" href="/css/blog.css">
+<link rel="stylesheet" href="/css/blog.css?{{ 'now' | date: '%Y%m%d' }}">
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.blog.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}">
 
