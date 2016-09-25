@@ -4,6 +4,10 @@ url: "https://lukasz.klis.co"
 permalink: /blog/:title/
 markdown: kramdown
 
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+
 # SEO
 landing:
   title: Łukasz Kliś &mdash; Front-end developer
