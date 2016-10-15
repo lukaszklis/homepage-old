@@ -7,15 +7,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 10em;
+  height: 10rem;
   justify-content: center;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 
   &__name {
     color: $color-gray-dark;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 500;
-    letter-spacing: .05em;
+    letter-spacing: .05rem;
     line-height: 1;
     margin: 0;
     text-decoration: none;
@@ -28,8 +28,8 @@
       text-decoration: none;
     }
 
-    @media screen and (min-width: 30em) {
-      font-size: 2em;
+    @media screen and (min-width: 30rem) {
+      font-size: 2rem;
     }
   }
 }

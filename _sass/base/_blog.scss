@@ -28,13 +28,31 @@ h2,
 h3,
 h4 {
   font-weight: 500;
-  letter-spacing: .03em;
+  letter-spacing: .03rem;
   line-height: 1.2;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
 }
 
 figure,
 pre {
   margin: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.185rem;
+  margin: 0;
+  padding: 0 1.625rem;
+  position: relative;
+
+  &::before {
+    background: $color-gray;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: .5rem;
+  }
 }

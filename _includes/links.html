@@ -1,0 +1,13 @@
+<nav class="links">
+  <ul class="links__list">
+    {% for link in site.data.navigation_landing %}
+    <li class="links__item">
+      <a href="{{ link.url }}" class="links__link">
+        <svg class="icon icon--links">
+          <use xlink:href="#icon-{{ link.iconName }}"></use>
+        </svg>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

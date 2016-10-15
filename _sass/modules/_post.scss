@@ -2,7 +2,7 @@
 
 .post {
   &__title {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
 
   &__title-link {
@@ -13,13 +13,13 @@
     ol,
     ul,
     p {
-      margin-bottom: 1.625em;
-      margin-top: 1.625em;
+      margin-bottom: 1.625rem;
+      margin-top: 1.625rem;
     }
 
     li,
     p {
-      line-height: 1.625em;
+      line-height: 1.625rem;
        -ms-word-break: break-all;
        word-break: break-all;
        // Non standard for webkit
@@ -33,14 +33,14 @@
       display: block;
       height: auto;
       left: 50%;
-      margin-bottom: .5em;
-      max-width: calc(100% + 2em);
+      margin-bottom: .5rem;
+      max-width: calc(100% + 2rem);
       position: relative;
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
 
-      @media only screen and (min-width: 48em) {
+      @media only screen and (min-width: 48rem) {
         max-width: 126%;
       }
     }
@@ -48,12 +48,12 @@
 
   &__footer {
     display: flex;
-    font-size: .875em;
+    font-size: .875rem;
     justify-content: space-between;
   }
 
   &__footer-link {
-    letter-spacing: .03em;
+    letter-spacing: .03rem;
   }
 
   &--list {
@@ -63,12 +63,12 @@
   }
 
   &--list &__title {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     margin: 0;
   }
 
   &--list &__time {
-    margin-left: 1em;
+    margin-left: 1rem;
     white-space: nowrap;
   }
 }

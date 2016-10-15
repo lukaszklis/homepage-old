@@ -176,10 +176,9 @@ CSS selectors and organise your code better. You don't have to style by elements
 anymore, you won't be confused about how to name an element inside a block and
 all the class names are unique per block.
 
-> There are only two hard things in Computer Science: cache invalidation and n
-aming things.
-
-> – Phil Karlton
+> There are only two hard things in Computer Science: cache invalidation and naming things.
+> 
+> <cite>– Phil Karlton</cite>
 
 On the other hand, sometimes it's hard to implement BEM in smaller projects.
 As usual, people will be confused about how to name a block and in order to
