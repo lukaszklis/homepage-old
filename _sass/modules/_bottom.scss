@@ -1,9 +1,11 @@
 // --- bottom ----------------------------------------------------------------------------------------------------------
 
 .bottom {
+  align-items: center;
   border-top: .0625rem solid $color-gray-light;
   color: $color-gray;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 2rem;
   padding: 2rem 0;

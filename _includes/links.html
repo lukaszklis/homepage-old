@@ -1,4 +1,10 @@
-<nav class="links">
+<nav
+  {% if include.modifier %}
+    class="links links--{{ include.modifier }}"
+  {% else %}
+    class="links"
+  {% endif %}
+>
   <ul class="links__list">
     {% for link in site.data.navigation_landing %}
     <li class="links__item">
