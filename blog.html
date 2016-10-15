@@ -6,11 +6,17 @@ permalink: /blog/
   <ul class="posts">
     {% for post in site.posts %}
       <li class="posts__item">
-        <article class="post post--list">
+        <article class="post">
           <h2 class="post__title">
             <a class="post__title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h2>
-          <time class="post__time">{{ post.date | date: "%-d %b %Y" }}</time>
+          <div class="post__content">
+            {{ post.excerpt }}
+          </div>
+          <div class="post__footer">
+            <a class="post__footer-link" href="{{ post.url | prepend: site.baseurl }}">Continue reading &raquo;</a>
+            <time class="post__time">{{ post.date | date: "%-d %b %Y" }}</time>
+          </div>
         </article>
       </li>
     {% endfor %}

@@ -2,7 +2,7 @@
 
 .bottom {
   align-items: center;
-  border-top: .0625rem solid $color-gray-light;
+  border-top: .0625rem solid rgba($color-gray-light, .4);
   color: $color-gray;
   display: flex;
   flex-direction: column;

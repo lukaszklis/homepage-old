@@ -26,10 +26,10 @@
     display: inline-flex;
     margin: 0 .25rem;
   }
+}
 
-  &__link {
-    color: $color-gray;
-  }
+a.links__link {
+  color: $color-gray;
 }
 
 .links--bottom {
