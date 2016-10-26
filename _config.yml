@@ -3,13 +3,11 @@ baseurl: ""
 url: "https://lukasz.klis.co"
 permalink: /blog/:title/
 markdown: kramdown
-
+sass:
+  style: compressed
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
-
-sass:
-  style: compressed
 
 # SEO
 landing:

@@ -16,11 +16,11 @@ applications. Doing front-end became easy. Did it really?
 Let's take a closer look at one of the most famous CSS framework - Bootstrap.
 You've picked a task where you're supposed to create a button on your site.
 
-{% highlight html %}
+```html
 <button class="btn">
   Click me
 </button>
-{% endhighlight %}
+```
 
 Save a HTML file, refresh the browser and voilá! A nice button shows up.
 
@@ -31,11 +31,11 @@ more prominent and fill the entire width of the container. *This requires
 more work* – you may think. Quick look at Bootstrap's documentation and all you
 have to do is add some extra classes:
 
-{% highlight html %}
+```html
 <button class="btn btn-lg btn-primary btn-block">
   Click me
 </button>
-{% endhighlight %}
+```
 
 Once again, save, refresh and task seems to be done.
 
@@ -50,11 +50,11 @@ PO and you.
 Suddenly, you've been assigned to a task where you have to fix one thing in
 your layout. Eventually, you'll end up with code like below:
 
-{% highlight html %}
+```html
 <button class="btn btn-lg btn-primary btn-block btn-cta btn-orange">
   Click me
 </button>
-{% endhighlight %}
+```
 
 After pushing such code to the repository, you start to wonder what's the
 purpose of your work and life. Is it really something that you want to do?
@@ -123,21 +123,21 @@ methodology (Yandex) proposed a syntax that you could follow.
 
 ### The Yandex Way
 
-{% highlight html %}
+```html
 <div class="block__element"></div>
 <div class="block__element_mod_value"></div>
-{% endhighlight %}
+```
 
 Yandex uses double underscore character to distinguish a block from an element,
 and `_mod_` to distinguish a modifier from a block or an element.
 
 ### CSSguidelin.es
 
-{% highlight html %}
+```html
 <div class="block__element"></div>
 <div class="block__element
             block__element--modifier"></div>
-{% endhighlight %}
+```
 
 Harry Roberts' [CSSguidelin.es](http://cssguidelin.es) uses double underscore
 character to distinguish a block from an element, and double dash character to
@@ -151,10 +151,10 @@ As mentioned before, BEM offers some freedom in terms of separators choice.
 Whatever suits you best and is valid with W3C's specification is fine. For
 instance, when you're a fan of emoticons, why not go for the syntax below?
 
-{% highlight html %}
+```html
 <div class="block-_-element"></div>
 <div class="block-_-element-o_O-modifier"></div>
-{% endhighlight %}
+```
 
 ## BEM in Practice
 

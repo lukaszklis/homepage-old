@@ -25,7 +25,7 @@ Let's go back in time to May '13, when we used to have an old offer tile.
 
 Looks not too bad, let's take a closer at the code:
 
-{% highlight css %}
+```css
 .thumbnail-search .offer-description {
   /* code */
 }
@@ -45,9 +45,9 @@ Looks not too bad, let's take a closer at the code:
 .thumbnail-search .primary {
   /* code */
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <div class="search-result thumbnail thumbnail-search">
   <a class="offer-image-link" href="#">
     <img class="offer-image" src="#" alt="">
@@ -68,7 +68,7 @@ Looks not too bad, let's take a closer at the code:
   </div>
   <div class="offer-actions"></div>
 </div>
-{% endhighlight %}
+```
 
 As you can see, there is no clear indication which class name should be used
 inside another and how to name new elements, so you could avoid conflicts in
@@ -84,7 +84,7 @@ on our website.
 As you can see, the offer tile looks similar, it's missing some of the elements
 that we used to have on search results page. What about the code?
 
-{% highlight css %}
+```css
 .offer-tile img {
   /* code */
 }
@@ -104,9 +104,9 @@ that we used to have on search results page. What about the code?
 .offer-tile .location {
   /* code */
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <li class="offer-tile">
   <a href="#">
     <img src="#" alt="">
@@ -121,7 +121,7 @@ that we used to have on search results page. What about the code?
     <div class="rating"></div>
   </a>
 </li>
-{% endhighlight %}
+```
 
 Unfortunately, the code looks completely different. Some of the elements have
 lost a class name at all, some of them have been re-ordered (`price` is no
@@ -145,7 +145,7 @@ Let's take a look at the search results page:
 As you can see, we've redesigned it since May '13 (that's good!), but what about
 the code?
 
-{% highlight css %}
+```css
 .offer {
   /* code */
 }
@@ -177,9 +177,9 @@ the code?
 .offer--tile .offer__details {
   /* code */
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <div class="offer offer--tile">
   <div class="offer__image-column">
     <img class="offer__image" src="#" alt="">
@@ -199,7 +199,7 @@ the code?
     </div>
   </div>
 </div>
-{% endhighlight %}
+```
 
 There is a **huge** difference. We've created a block called `offer` and found
 all styles that are common for all of the occurrences and created modifiers
@@ -216,7 +216,7 @@ What about the homepage?
 
 Looks neat, what about the code?
 
-{% highlight css %}
+```css
 .offer--carousel .offer__details {
   /* code */
 }
@@ -228,9 +228,9 @@ Looks neat, what about the code?
 .offer--carousel .offer__rating {
   /* code */
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <div class="offer offer--carousel">
   <div class="offer__image-column">
     <img class="offer__image" src="#" alt="">
@@ -249,7 +249,7 @@ Looks neat, what about the code?
     </div>
   </div>
 </div>
-{% endhighlight %}
+```
 
 Code looks exactly like the one that we're using on the search results page.
 Finally! `price` block also has the same structure and all elements that require

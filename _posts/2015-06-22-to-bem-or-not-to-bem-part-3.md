@@ -22,7 +22,7 @@ This is how the flash messages look:
 We've _BEMified_ the module already, so let's just quickly take a look at the
 code:
 
-{% highlight css %}
+```css
 .flash {
   padding: 15px;
   border: 1px solid #f8fdf4;
@@ -33,9 +33,9 @@ code:
 .flash__header {
   /* code */
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <div class="flash">
   <div class="flash__header">
     <h3 class="flash__title">
@@ -46,13 +46,13 @@ code:
     Lorem ipsum dolor sit amet...
   </div>
 </div>
-{% endhighlight %}
+```
 
 We have a lot of the flash messages that look slightly different and that's
 where we use the modifiers. Quick preview of some of the flash messages on our
 site:
 
-{% highlight css %}
+```css
 .flash {
   padding: 15px;
   border: 1px solid #f8fdf4;
@@ -66,9 +66,9 @@ site:
 .flash--with-icon .flash__body {
   padding-left: 45px;
 }
-{% endhighlight %}
+```
 
-{% highlight html %}
+```html
 <div class="flash flash--success"></div>
 
 <div class="flash flash--error"></div>
@@ -78,7 +78,7 @@ site:
 <div class="flash flash--panel"></div>
 
 <div class="flash flash--with-icon"></div>
-{% endhighlight %}
+```
 
 Looks quite nice, doesn't it? Not so fast...
 
@@ -91,7 +91,7 @@ success result of a user's action. This is how it looks:
 
 A quick look at the code:
 
-{% highlight html %}
+```html
 <div class="flash flash--success flash--with-icon flash--voucher">
   <i class="flash__icon"></i>
   <div class="flash__header">
@@ -101,7 +101,7 @@ A quick look at the code:
     Lorem ipsum dolor sit amet...
   </div>
 </div>
-{% endhighlight %}
+```
 
 A block with **three** modifiers applied?! This reminds us of the
 [quick fixes that we wanted to avoid](/blog/to-bem-or-not-to-bem/#quickfixes) in
@@ -119,7 +119,7 @@ cleaner and easier to maintain. What can we do about our flash message? Let's
 use some of the benefits of the pre-processor –
 [placeholders](http://thesassway.com/intermediate/understanding-placeholder-selectors).
 
-{% highlight scss %}
+```scss
 // Placeholders
 
 %flash-with-icon {
@@ -147,7 +147,7 @@ use some of the benefits of the pre-processor –
   @extend %flash-success;
   // code
 }
-{% endhighlight %}
+```
 
 All the properties that we used to have added for the modifiers, we moved to
 placeholders. To limit the modifiers applied for this `flash` block, we've
@@ -155,7 +155,7 @@ created a new one called `voucher`, which extends properties of
 `%flash-with-icon` and `%flash-success`. Thanks to that, we could remove two
 modifiers from the block. What's the final result?
 
-{% highlight html %}
+```html
 <div class="flash flash--voucher">
   <i class="flash__icon"></i>
   <div class="flash__header">
@@ -165,7 +165,7 @@ modifiers from the block. What's the final result?
     Lorem ipsum dolor sit amet...
   </div>
 </div>
-{% endhighlight %}
+```
 
 Looks much better.
 
