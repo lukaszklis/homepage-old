@@ -1,3 +1,11 @@
-<header class="top">
-  <a href="/blog/" class="top__name">{{ include.title }}</a>
+<header class="top top--small">
+  <a class="top__name"
+     {% if include.post %}
+       href="/blog/"
+     {% else %}
+       href="/"
+     {% endif %}
+     >
+    {{ include.title }}
+  </a>
 </header>

@@ -2,9 +2,9 @@
 
 .top {
   align-items: center;
-  background-image: url('/images/bg.jpg');
-  background-position: 50% 50%;
+  background-image: url('/images/bg.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: cover;
   display: flex;
   height: 10rem;
@@ -31,5 +31,13 @@ a.top__name {
 
   @media screen and (min-width: 30rem) {
     font-size: 2rem;
+  }
+}
+
+.top--small {
+  background-image: url('/images/bg-small-mobile.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
+
+  @media screen and (min-width: 30rem) {
+    background-image: url('/images/bg-small.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
   }
 }

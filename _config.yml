@@ -8,6 +8,9 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
+sass:
+  style: compressed
+
 # SEO
 landing:
   title: Łukasz Kliś - Front-end developer

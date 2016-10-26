@@ -6,7 +6,8 @@ body {
 }
 
 body {
-  background: $color-gray-light url('/images/bg.jpg') no-repeat;
+  background-image: url('/images/bg.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
+  background-repeat: no-repeat;
   background-size: cover;
   color: $color-white;
 }
