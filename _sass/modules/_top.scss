@@ -35,9 +35,9 @@ a.top__name {
 }
 
 .top--small {
-  background-image: url('/images/bg-small-mobile.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
+  background-image: url('/images/bg-small-mobile.jpg'), linear-gradient(#b1b0b5 0%, #b1b0b5 40%, #6b6e75 100%);
 
   @media screen and (min-width: 30rem) {
-    background-image: url('/images/bg-small.jpg'), linear-gradient(#c1c0c5 0%, #c1c0c5 40%, #585b65 100%);
+    background-image: url('/images/bg-small.jpg'), linear-gradient(#b1b0b5 0%, #b1b0b5 40%, #6b6e75 100%);
   }
 }
