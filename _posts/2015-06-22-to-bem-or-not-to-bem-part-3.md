@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "To BEM, or Not to BEM: Part III"
+comments: true
 ---
 
 I've described [the basics of BEM](/blog/to-bem-or-not-to-bem/) and provided

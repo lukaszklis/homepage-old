@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "To BEM, or Not to BEM: Part I"
+comments: true
 ---
 
 I've been working as a front-end developer since 2007. Since then, a lot of
