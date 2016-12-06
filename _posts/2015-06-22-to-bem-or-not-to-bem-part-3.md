@@ -13,7 +13,7 @@ with them.
 ## Case Study: Refactoring Flash Messages
 
 You can see a flash message on [Wimdu](http://www.wimdu.com/)'s website in
-a few places – some short text with some instructions for the user, for
+a few places—some short text with some instructions for the user, for
 instance, a message about having a voucher applied on the checkout page.
 
 This is how the flash messages look:
@@ -178,7 +178,7 @@ anymore, you won't be confused about how to name an element inside a block and
 all the class names are unique per block.
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
-> 
+>
 > <cite>– Phil Karlton</cite>
 
 On the other hand, sometimes it's hard to implement BEM in smaller projects.

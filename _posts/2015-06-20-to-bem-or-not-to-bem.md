@@ -8,13 +8,13 @@ I've been working as a front-end developer since 2007. Since then, a lot of
 frameworks, grid systems and methodologies have been developed to help
 developers' worklife. [Bootstrap](http://getbootstrap.com),
 [Foundation](http://foundation.zurb.com),
-[Semantic UI](http://semantic-ui.com) – those are examples of only some of
+[Semantic UI](http://semantic-ui.com)—those are examples of only some of
 those. Tools like these have allowed us to rapidly create prototypes or web
 applications. Doing front-end became easy. Did it really?
 
 ## Hello Bootstrap
 
-Let's take a closer look at one of the most famous CSS framework - Bootstrap.
+Let's take a closer look at one of the most famous CSS framework—Bootstrap.
 You've picked a task where you're supposed to create a button on your site.
 
 ```html
@@ -29,7 +29,7 @@ Save a HTML file, refresh the browser and voilá! A nice button shows up.
 
 Moving on to the next task, you've been asked to make the button larger, make it
 more prominent and fill the entire width of the container. *This requires
-more work* – you may think. Quick look at Bootstrap's documentation and all you
+more work*—you may think. Quick look at Bootstrap's documentation and all you
 have to do is add some extra classes:
 
 ```html
@@ -45,7 +45,7 @@ Once again, save, refresh and task seems to be done.
 ## Quick Fixes
 
 You keep working on your project for the next couple of months. Bootstrap, as a
-CSS framework of choice, seems to be perfect. Everybody is happy – a client, a
+CSS framework of choice, seems to be perfect. Everybody is happy—a client, a
 PO and you.
 
 Suddenly, you've been assigned to a task where you have to fix one thing in
@@ -64,7 +64,7 @@ and easier to maintain?
 
 ## BEM to the Rescue!
 
-**BEM** - **B**lock **E**lement **M**odifier - a methodology created by
+**BEM**—**B**lock **E**lement **M**odifier—a methodology created by
 [Yandex](http://yandex.ru) in 2005 (yeah, BEM is already 10 years old!). The
 methodology comes with some guidelines on how to name elements in your templates
 and stylesheets.
