@@ -11,11 +11,16 @@ exclude:
 
 # SEO
 landing:
-  title: Łukasz Kliś - Front-end developer
+  title: Łukasz Kliś — Front-end developer
   description: A front-end developer based in Berlin, Germany. Specializes in building and maintaining large web applications.
 
 blog:
   title: Łukasz Kliś
   description: Personal blog of a front-end developer based in Berlin, Germany, who specializes in building and maintaining large web applications.
+
+# Used for RSS generation
+
+title: Łukasz Kliś — Blog
+description: Personal blog of a front-end developer based in Berlin, Germany, who specializes in building and maintaining large web applications.
 
 twitter_username: lukaszklis
