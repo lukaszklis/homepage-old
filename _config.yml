@@ -1,6 +1,6 @@
 # Jekyll config
 baseurl: ""
-url: "https://lukasz.klis.co"
+url: "https://lukaszklis.com"
 permalink: /blog/:title/
 markdown: kramdown
 sass:
